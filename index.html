@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover 3D Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #121212; }
+        model-viewer { width: 100%; max-width: 600px; height: 500px; }
+    </style>
+</head>
+<body>
+    <model-viewer src="https://github.com/sanvedadhau/QR_Code/blob/69d6026d19476179aefa7d344c84fbf293cc072b/25042_Perseverance.glb" 
+                  ar 
+                  auto-rotate 
+                  camera-controls 
+                  shadow-intensity="1">
+    </model-viewer>
+</body>
+</html>
